@@ -34,17 +34,4 @@ func makeArray(number: Int) -> [Int] {
     
     return result
 }
-//var number = 0
-//print("Введите число:")
-//if let input = readLine()
-//{
-//    if let int = Int(input)
-//    {
-//         let number = (input)
-//    }
-//    else{
-//        print("Вы ввели не инт")
-//    }
-//}
-// Не стал заморачиваться с проверками и эксепшенами
-print("Сгенерированный массив ", makeArray(number: 8))
+print("Столько оперативки хочу: ", makeArray(number: 10))
